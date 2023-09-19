@@ -62,3 +62,13 @@ button {
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
 }
+
+.wrong-answer {
+    background-color: red;
+    color: black;
+}
+
+.correct-answer {
+    background-color: green;
+    color: black;
+}
