@@ -1,7 +1,19 @@
-function wrongAnswer () {
-    let button = document.querySelector('button');
-    button.classList.add("wrong-answer");
+function wrongAnswer (evt) {
+    evt.target.classList.toggle("wrong-answer");
 }
 
-document.querySelector("#btn1-1").addEventListener("click", wrongAnswer)
-document.querySelector("#btn1-2").addEventListener("click", wrongAnswer)
+function correctAnswer (evt) {
+    evt.target.classList.toggle("correct-answer");
+}
+
+let wrongList = document.querySelectorAll(".wrong");
+
+for (let i=0; i< wrongList.length; i++) {
+    wrongList[i].addEventListener("click", wrongAnswer);
+}
+
+let correctList = document.querySelectorAll(".correct")
+
+for (let i=0; i< correctList.length; i++) {
+    correctList[i].addEventListener("click", correctAnswer);
+}
