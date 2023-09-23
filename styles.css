@@ -80,6 +80,12 @@ button {
     padding: 10px 20px 10px 20px;
 }
 
+#startover-button {
+    margin: 20px;
+    transform: translate(25px, 100px);
+    position: fixed;
+}
+
 .wrong-answer {
     background-color: red;
     color: black;

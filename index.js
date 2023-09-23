@@ -14,6 +14,12 @@ function addToCounter () {
     document.querySelector('#score').innerHTML = counter;
 }
 
+let startoverButton = document.querySelector("#startover-button");
+
+startoverButton.addEventListener("click", ()=>{
+    window.location.reload()
+})
+
 let questionContainer = document.querySelectorAll(".question-container");
 
 let wrongList = document.querySelectorAll(".wrong");
@@ -33,6 +39,5 @@ for (let i=0; i< correctList.length; i++) {
         () => {questionContainer[i].style.pointerEvents = "none"});
 }
 
-// fix wrongList questionContainer code
-// add start over button
-// write instructions in the read me
+// fix wrongList questionContainer code bug
+// write instructions
