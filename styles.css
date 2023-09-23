@@ -34,6 +34,21 @@ h1 {
     transform: translate(0, 60px);
 }
 
+.score-container {
+    background-color: #cbabb0;
+    width: 150px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+    position: fixed;
+}
+
+h4 {
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .question-container {
     background-color: #975F41;
     width: 50%;

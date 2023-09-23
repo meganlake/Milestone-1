@@ -16,4 +16,6 @@ let correctList = document.querySelectorAll(".correct")
 
 for (let i=0; i< correctList.length; i++) {
     correctList[i].addEventListener("click", correctAnswer);
+    
 }
+
