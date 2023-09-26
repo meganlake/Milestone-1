@@ -26,8 +26,8 @@ let wrongList = document.querySelectorAll(".wrong");
 
 for (let i=0; i< wrongList.length; i++) {
     wrongList[i].addEventListener("click", wrongAnswer);
-    wrongList[i].addEventListener("click", 
-        () => {questionContainer[i].style.pointerEvents = "none"});
+    // wrongList[i].addEventListener("click", 
+    //     () => {questionContainer[i].style.pointerEvents = "none"});
 }
 
 let correctList = document.querySelectorAll(".correct")
