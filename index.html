@@ -11,115 +11,119 @@
         <h1>Cat Trivia Game</h1>
         <img id="cat-header-img" src="https://images.unsplash.com/photo-1570458436416-b8fcccfe883f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="cat sitting silhouette">
     </header>
-    <div class="score-container">
-        <h4>Score:</h4>
-        <h4 id="score">0</h4>
+    <div id="body-container">
+        <div class="score-container">
+            <h4>Score:</h4>
+            <h4 id="score">0</h4>
+        </div>
+        <div id="startover-button">
+            <button>Start Over!</button>
+        </div>
+        <div id="instructions">
+            <h4>Instructions:</h4>
+            <h5>Select the answers you think are correct. You need 5 points to win. If you lose, click the Start Over button to restart the game. Have fun!</h5>
+        </div>
+        <div id="questions">
+            <section class="question-container">
+                <h2>Question 1</h2>
+                <h3>What can you call a group of kittens?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Sleuth</button>
+                    <button class="wrong">Colony</button>
+                    <button class="correct">Kindle</button>
+                    <button class="wrong">Conspiracy</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 2</h2>
+                <h3>What can you call a group of adult cats?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Caudron</button>
+                    <button class="correct">Clouder</button>
+                    <button class="wrong">Bask</button>
+                    <button class="wrong">Prickle</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 3</h2>
+                <h3>How many toes are on a cat's front paw?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">3</button>
+                    <button class="wrong">4</button>
+                    <button class="correct">5</button>
+                    <button class="wrong">6</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 4</h2>
+                <h3>If a cat's whiskers are stiff, what mood are they in?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Happy</button>
+                    <button class="wrong">Playful</button>
+                    <button class="wrong">Sleepy</button>
+                    <button class="correct">Mad</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 5</h2>
+                <h3>How fast can a cat run?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">20mph</button>
+                    <button class="correct">30mph</button>
+                    <button class="wrong">40mph</button>
+                    <button class="wrong">50mph</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 6</h2>
+                <h3>What type of cat usually has stripes?</h3>
+                <div class="answer-buttons">
+                    <button class="correct">Tabby</button>
+                    <button class="wrong">Calico</button>
+                    <button class="wrong">Siamese</button>
+                    <button class="wrong">Persian</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 7</h2>
+                <h3>What is a hairless cat called?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Ragdoll</button>
+                    <button class="wrong">Maine Coon</button>
+                    <button class="correct">Sphynx</button>
+                    <button class="wrong">Burmese</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 8</h2>
+                <h3>What is the Egyptian word for cat?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Iwiw</button>
+                    <button class="correct">Mau</button>
+                    <button class="wrong">'Ilio</button>
+                    <button class="wrong">Popoki</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 9</h2>
+                <h3>Can cat's taste scents?</h3>
+                <div class="answer-buttons">
+                    <button class="correct">Yes</button>
+                    <button class="wrong">No</button>
+                </div>
+            </section>
+            <section class="question-container">
+                <h2>Question 10</h2>
+                <h3>What should cats not drink?</h3>
+                <div class="answer-buttons">
+                    <button class="wrong">Water</button>
+                    <button class="wrong">Cat's milk</button>
+                    <button class="wrong">Seawater</button>
+                    <button class="correct">Cow's milk</button>
+                </div>
+            </section>
+        </div>
     </div>
-    <div id="startover-button">
-        <button>Start Over!</button>
-    </div>
-    <div id="instructions">
-        <h4>Instructions:</h4>
-        <h5>Select the answers you think are correct. You need 5 points to win. If you lose, click the Start Over button to restart the game. Have fun!</h5>
-    </div>
-    <section class="question-container">
-        <h2>Question 1</h2>
-        <h3>What can you call a group of kittens?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Sleuth</button>
-            <button class="wrong">Colony</button>
-            <button class="correct">Kindle</button>
-            <button class="wrong">Conspiracy</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 2</h2>
-        <h3>What can you call a group of adult cats?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Caudron</button>
-            <button class="correct">Clouder</button>
-            <button class="wrong">Bask</button>
-            <button class="wrong">Prickle</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 3</h2>
-        <h3>How many toes are on a cat's front paw?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">3</button>
-            <button class="wrong">4</button>
-            <button class="correct">5</button>
-            <button class="wrong">6</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 4</h2>
-        <h3>If a cat's whiskers are stiff, what mood are they in?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Happy</button>
-            <button class="wrong">Playful</button>
-            <button class="wrong">Sleepy</button>
-            <button class="correct">Mad</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 5</h2>
-        <h3>How fast can a cat run?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">20mph</button>
-            <button class="correct">30mph</button>
-            <button class="wrong">40mph</button>
-            <button class="wrong">50mph</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 6</h2>
-        <h3>What type of cat usually has stripes?</h3>
-        <div class="answer-buttons">
-            <button class="correct">Tabby</button>
-            <button class="wrong">Calico</button>
-            <button class="wrong">Siamese</button>
-            <button class="wrong">Persian</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 7</h2>
-        <h3>What is a hairless cat called?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Ragdoll</button>
-            <button class="wrong">Maine Coon</button>
-            <button class="correct">Sphynx</button>
-            <button class="wrong">Burmese</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 8</h2>
-        <h3>What is the Egyptian word for cat?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Iwiw</button>
-            <button class="correct">Mau</button>
-            <button class="wrong">'Ilio</button>
-            <button class="wrong">Popoki</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 9</h2>
-        <h3>Can cat's taste scents?</h3>
-        <div class="answer-buttons">
-            <button class="correct">Yes</button>
-            <button class="wrong">No</button>
-        </div>
-    </section>
-    <section class="question-container">
-        <h2>Question 10</h2>
-        <h3>What should cats not drink?</h3>
-        <div class="answer-buttons">
-            <button class="wrong">Water</button>
-            <button class="wrong">Cat's milk</button>
-            <button class="wrong">Seawater</button>
-            <button class="correct">Cow's milk</button>
-        </div>
-    </section>
     <script src="./index.js"></script>
 </body>
 </html>
