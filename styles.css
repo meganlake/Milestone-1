@@ -13,8 +13,6 @@ body {
 header {
     background-color: #776067;
     border-radius: 10px;
-    /* display: flex;
-    justify-content: center; */
 }
 
 #cat-header-img {
@@ -110,7 +108,7 @@ button {
 }
 
 @media (max-width: 900px) {    
-    header {
+    /* header {
         display: flex;
         justify-content: center;
     }
@@ -132,7 +130,7 @@ button {
         position: relative;
         z-index: 1;
         transform: translate(0, 60px);
-    }
+    } */
     
     #body-container {
         display: flex;
