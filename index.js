@@ -1,11 +1,3 @@
-function wrongAnswer (evt) {
-    evt.target.classList.add("wrong-answer");
-}
-
-function correctAnswer (evt) {
-    evt.target.classList.add("correct-answer");
-}
-
 let counter = 0;
 
 function addToCounter () {
@@ -20,14 +12,20 @@ startoverButton.addEventListener("click", ()=>{
     window.location.reload()
 })
 
-let questionContainer = document.querySelectorAll(".question-container");
+function wrongAnswer (evt) {
+    evt.target.classList.add("wrong-answer");
+}
+
+function correctAnswer (evt) {
+    evt.target.classList.add("correct-answer");
+}
 
 let wrongList = document.querySelectorAll(".wrong");
 
 for (let i=0; i< wrongList.length; i++) {
     wrongList[i].addEventListener("click", wrongAnswer);
     wrongList[i].addEventListener("click", 
-        () => {wrongList[i].parentElement.parentElement.style.pointerEvents = "none"});
+        () => {wrongList[i].parentElement.style.pointerEvents = "none"});
 }
 
 let correctList = document.querySelectorAll(".correct")
@@ -36,5 +34,5 @@ for (let i=0; i< correctList.length; i++) {
     correctList[i].addEventListener("click", correctAnswer);
     correctList[i].addEventListener("click", addToCounter);
     correctList[i].addEventListener("click", 
-        () => {correctList[i].parentElement.parentElement.style.pointerEvents = "none"});
+        () => {correctList[i].parentElement.style.pointerEvents = "none"});
 }
