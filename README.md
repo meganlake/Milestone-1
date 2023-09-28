@@ -7,3 +7,5 @@ In my code, I have a counter with a function to update the counter when you sele
 
 With more time, I'd like to make the site more mobile friendly. I was able to start but there are some more things I'd like to do with it. I would also like to add some sort of pop-up saying "You won" or "You lost."
 
+Also, Gerard helped with my javascript code.
+
