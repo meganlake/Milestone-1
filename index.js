@@ -3,7 +3,12 @@ let counter = 0;
 function addToCounter () {
     counter += 1; 
     console.log(counter);
-    document.querySelector('#score').innerHTML = counter;
+    document.querySelector('#score').innerHTML = `${counter} / 10`;
+    
+    if (counter == 5) {
+        document.querySelector("#score").style.color = "green"
+        document.querySelector("#win").innerHTML = "You won!"
+    }
 }
 
 let startoverButton = document.querySelector("#startover-button");

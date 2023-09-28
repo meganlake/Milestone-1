@@ -43,6 +43,10 @@ h1 {
     position: fixed;
 }
 
+#win {
+    color: green;
+}
+
 #startover-button {
     margin: 20px;
     position: fixed;
@@ -121,7 +125,9 @@ button {
 
     .score-container {
         position: sticky;
-        height: 150px;
+        left: 0;
+        top: 470px;
+        height: 50%;
         padding: 20px;
     }
 
@@ -129,7 +135,7 @@ button {
         position: sticky;
         transform: translate(0);
     }
-    
+
     #instructions {
         height: 250px;
         order: 1;
