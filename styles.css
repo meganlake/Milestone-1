@@ -46,7 +46,6 @@ h1 {
     text-align: center;
     margin: 20px;
     position: sticky;
-    left: 0;
     top: 0;
     height: 50%;
     padding: 20px;
@@ -128,30 +127,14 @@ button {
         width: 800px;
         margin: 0 auto;
     }
+
     
-    /* #body-container {
-        display: flex;
-    }
 
     .score-container {
-        position: sticky;
-        left: 0;
-        top: 0;
-        height: 50%;
-        padding: 20px;
-    }
-
-    #startover-button {
-        position: sticky;
-        transform: translate(0);
+        width: 150px
     }
 
     #instructions {
-        height: 50%;
-        order: 1;
+        width: 150px;
     }
-
-    .question-container {
-        width: 100%;
-    } */
 }
