@@ -34,13 +34,22 @@ h1 {
     transform: translate(0, 60px);
 }
 
+#body-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .score-container {
     background-color: #cbabb0;
-    width: 150px;
+    width: 15%;
     border-radius: 10px;
     text-align: center;
     margin: 20px;
-    position: fixed;
+    position: sticky;
+    left: 0;
+    top: 0;
+    height: 50%;
+    padding: 20px;
 }
 
 #win {
@@ -49,17 +58,18 @@ h1 {
 
 #startover-button {
     margin: 20px;
-    position: fixed;
+    position: sticky;
 }
 
 #instructions {
-    width: 150px;
+    width: 15%;
     background-color: #cbabb0;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     text-align: center;
-    float: right;
+    height: 50%;
+    order: 1;
 }
 
 h4 {
@@ -74,7 +84,7 @@ h5 {
 
 .question-container {
     background-color: #975F41;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     border-radius: 10px;
@@ -119,14 +129,14 @@ button {
         margin: 0 auto;
     }
     
-    #body-container {
+    /* #body-container {
         display: flex;
     }
 
     .score-container {
         position: sticky;
         left: 0;
-        top: 470px;
+        top: 0;
         height: 50%;
         padding: 20px;
     }
@@ -143,5 +153,5 @@ button {
 
     .question-container {
         width: 100%;
-    }
+    } */
 }
